@@ -95,8 +95,8 @@ a {
   color: #FF6347;
 }
 
-/* Testimonial sectio */
-#testimonials {
+/* Carousel sectio */
+#carousel-slides {
   background-color: #FBEA92;
   text-align: center;
 }
@@ -111,13 +111,13 @@ a {
   padding: 7% 15%;
 }
 
-#press {
+#business {
   background-color: #FBEA92;
   text-align: center;
   padding-bottom: 3%;
 }
 
-.press-logo {
+.business-logo {
   width: 12%;
 }
 
