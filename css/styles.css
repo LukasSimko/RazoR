@@ -54,6 +54,7 @@ p {
 #title {
   background-color: #FBEA92;
   color: #000;
+  padding:1% 3% 5%;
 }
 
 a {
@@ -65,16 +66,15 @@ a {
   margin: 5% 3% 5% 0%;
 }
 
-.button{
-  margin-top: 150px;
-}
+
 /* Light bulb image */
 .title-img {
-  margin-left: 50px;
-  transform: rotate(15deg);
-  width: 60%;
+  margin-left: 20%;
   position: absolute;
+  transform: rotate(20deg);
+  width: 60%;
 }
+
 
 /* Awesome icones */
 #features {
@@ -102,9 +102,9 @@ a {
 }
 
 .carousel-img {
-  width: 20%;
   border-radius: 100%;
   margin: 20px;
+  width: 20%;
 }
 
 .carousel-item {
@@ -127,8 +127,8 @@ a {
 
 /* Pricing selection */
 #pricing {
+  padding: 100px;
   text-align: center;
-  padding: 100px
 }
 
 .pricing-col {
@@ -138,12 +138,11 @@ a {
 /* Card style */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
   font-family: arial;
+  margin: auto;
+  max-width: 300px;
+  text-align: center;
 }
-
 
 .price {
   color: grey;
@@ -151,20 +150,21 @@ a {
 }
 
 .order-button {
-  width: 125px;
   height: 50px;
+  width: 125px;
 }
 
-.checkout-button{
+.checkout-button {
+  height: 40px;
   margin-top: 2%;
   width: 200px;
-  height: 40px;
 }
 
-.condition-payment{
-  text-align: left;
+.condition-payment {
   font-family: 'Montserrat';
   font-size: 10px;
+  margin-left: 7%;
+  text-align: left;
 }
 
 /* Footer */
@@ -187,4 +187,25 @@ a {
 
 .copyright {
   margin-top: 2%;
+}
+
+.social-icon{
+  padding-top: 20px;
+  margin: 10px 20px;
+  color: white;
+}
+
+.social-icon:hover{
+  color:#FBEA92;
+}
+
+
+@media (max-width: 991px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position:static;
+    transform: rotate(0);
+  }
 }
